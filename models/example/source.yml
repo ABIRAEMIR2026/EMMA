@@ -1,0 +1,10 @@
+sources:
+  - name: landing
+    database: DEV_T3_INTEGRATION
+    schema: EMMA
+
+    tables:
+      - name: CUSTOMER
+        identifier: T_CUSTOMER
+      - name: ORDERS
+        identifier: T_ORDERS
