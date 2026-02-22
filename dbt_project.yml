@@ -40,3 +40,12 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
+    T_ORDERS_FINAL:
+      schema: EMMA
+      materialized: table
+
+    T_STORE_ORDERS_COUNT:
+      schema: EMMA
+      materialized: table
+      transient: false
