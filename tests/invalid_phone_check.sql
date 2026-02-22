@@ -1,0 +1,3 @@
+SELECT * 
+FROM {{ ref('T_CUSTOMERS_FINAL') }} 
+WHERE POSITION('.' IN PHONE) <> 0
